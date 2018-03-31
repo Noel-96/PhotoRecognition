@@ -49,7 +49,7 @@ class MainRecyclerViewAdapter extends RecyclerView.Adapter {
         Photo photo = model.photos.get(0);
         Photo.Tag tag = photo.tags.get(position);
         try {
-            if (tag.uids.get(0).confidence > 35) {
+            if (tag.uids.get(0).confidence > 45) {
                 ((TagItem) holder).tagTv.setText("Label: " + tag.uids.get(0).uid);
             }
         } catch (IndexOutOfBoundsException e) {

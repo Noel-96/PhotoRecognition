@@ -26,9 +26,10 @@ public class ApiServiceImpl {
     public static String sekret = "74kd0tql0bhvd87ngfop24bv28";
     String uids = "13cj015307_computer-engineering@mydocs," +
             "13cj015316_computer_engineering@mydocs," +
-            "B.Eng_M.Eng_Ph.D_Engineering@mydocs," +
+            "Dr_Felix_Agbetuyi_Engineering@mydocs," +
             "13cj015293_computer_engineering@mydocs," +
-            "Dr_adewale_EIE@mydocs,HOD_DR_Matthews@mydocs";
+            "Dr_adewale_EIE@mydocs,HOD_DR_Matthews@mydocs,"+
+            "Dr._Anthony_Adoghe_Engineering@mydocs";
 
     public ApiServiceImpl() {
         createClient();
